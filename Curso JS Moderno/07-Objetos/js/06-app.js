@@ -14,7 +14,8 @@ const producto = {
     }
 }
 
-const{nombre, informacion, informacion:{fabricacion}}=producto;
+const{nombre, informacion, informacion:{medidas}}=producto;
 console.log(nombre);
 console.log(informacion);
-console.log(fabricacion);
+// console.log(fabricacion);
+console.log(medidas);
